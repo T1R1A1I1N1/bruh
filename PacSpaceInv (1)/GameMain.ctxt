@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GameMain
+comment1.params=
+comment1.target=GameMain()
+comment2.params=
+comment2.target=void\ setPanel()
+comment3.params=
+comment3.target=void\ setVariables()
+comment4.params=
+comment4.target=void\ game()
+comment5.params=event
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=evt
+comment6.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment7.params=evt
+comment7.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment8.params=evt
+comment8.target=void\ keyTyped(java.awt.event.KeyEvent)
+numComments=9

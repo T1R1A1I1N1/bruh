@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Sword
+comment1.params=x\ y\ xsiz\ ysiz
+comment1.target=Sword(int,\ int,\ int,\ int)
+numComments=2

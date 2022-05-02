@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PacGraphics
+comment1.params=pacc\ ghss\ endgame\ pelss\ powpell\ gbb
+comment1.target=PacGraphics(Pacman,\ Ghost[],\ boolean,\ java.util.ArrayList,\ java.util.ArrayList,\ GameBorder)
+comment2.params=pacc\ l
+comment2.target=void\ updateLocation(Pacman,\ int)
+comment3.params=endgame
+comment3.target=void\ hitGhost(boolean)
+comment4.params=g\ p\ estep\ pelss
+comment4.target=void\ ghostStuff(Ghost[],\ java.util.ArrayList,\ int,\ java.util.ArrayList)
+comment5.params=g
+comment5.target=void\ paint(java.awt.Graphics)
+numComments=6

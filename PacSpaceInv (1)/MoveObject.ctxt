@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MoveObject
+comment1.params=xx\ yy\ gbb\ speeed
+comment1.target=MoveObject(int,\ int,\ GameBorder,\ double)
+comment2.params=
+comment2.target=void\ moveObject()
+comment3.params=DD
+comment3.target=void\ changeDir(java.lang.String)
+numComments=4
