@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Ghost
+comment0.text=\r\nPacman\ \ \ \r\nEvan\ Pouliot\ \ \ \r\nV1.0\ \ \ \r\n
+comment1.params=xx\ yy\ gbb\ speed
+comment1.target=Ghost(int,\ int,\ GameBorder,\ double)
+comment2.params=can
+comment2.target=void\ setEat(boolean)
+comment3.params=
+comment3.target=boolean\ getEat()
+comment4.params=
+comment4.target=void\ increaseSpeed()
+comment5.params=moove\ pacc
+comment5.target=void\ sendMove(int,\ Pacman)
+comment6.params=
+comment6.target=void\ moveGhost()
+comment7.params=
+comment7.target=void\ randomDir()
+comment7.text=directional\ algorithims
+comment8.params=
+comment8.target=void\ chaseDir()
+comment9.params=
+comment9.target=void\ runDir()
+numComments=10

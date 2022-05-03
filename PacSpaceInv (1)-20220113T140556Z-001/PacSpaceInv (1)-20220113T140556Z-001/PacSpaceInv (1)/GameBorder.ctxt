@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=GameBorder
+comment0.text=\r\nPacman\ \ \ \r\nEvan\ Pouliot\ \ \ \r\nV1.0\ \ \ \r\n
+comment1.params=xstart\ ystart\ xlength\ ylength
+comment1.target=GameBorder(int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getXstart()
+comment3.params=
+comment3.target=int\ getYstart()
+comment4.params=
+comment4.target=int\ getXlength()
+comment5.params=
+comment5.target=int\ getYlength()
+numComments=6

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=BaseObject
+comment0.text=\r\nPacman\ \ \ \r\nEvan\ Pouliot\ \ \ \r\nV1.0\ \ \ \r\n
+comment1.params=xx\ yy
+comment1.target=BaseObject(int,\ int)
+comment2.params=
+comment2.target=int\ getX()
+comment3.params=
+comment3.target=int\ getY()
+comment4.params=
+comment4.target=boolean\ getDestroyed()
+comment5.params=
+comment5.target=void\ destroyObject()
+comment6.params=
+comment6.target=void\ fixObject()
+comment7.params=xx
+comment7.target=void\ setX(int)
+comment8.params=yy
+comment8.target=void\ setY(int)
+numComments=9

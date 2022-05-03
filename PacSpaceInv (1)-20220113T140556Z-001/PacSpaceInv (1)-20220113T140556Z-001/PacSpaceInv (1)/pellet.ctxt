@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=pellet
+comment0.text=\r\nPacman\ \ \ \r\nEvan\ Pouliot\ \ \ \r\nV1.0\ \ \ \r\n
+comment1.params=xx\ yy
+comment1.target=pellet(int,\ int)
+numComments=2

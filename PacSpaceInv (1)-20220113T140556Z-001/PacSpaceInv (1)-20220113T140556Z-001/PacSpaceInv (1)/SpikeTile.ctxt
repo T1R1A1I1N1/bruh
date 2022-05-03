@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=SpikeTile
+comment1.params=x\ y\ dam
+comment1.target=SpikeTile(int,\ int,\ int)
+numComments=2

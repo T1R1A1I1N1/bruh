@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=StatMethods
+comment1.params=
+comment1.target=StatMethods()
+comment2.params=a\ b
+comment2.target=boolean\ collision(Base,\ Base)
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GameGraph
+comment1.params=map
+comment1.target=GameGraph(Tile[][])
+comment2.params=g
+comment2.target=void\ paint(java.awt.Graphics)
+numComments=3
