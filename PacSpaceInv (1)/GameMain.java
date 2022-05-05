@@ -10,12 +10,28 @@ public class GameMain implements ActionListener, KeyListener
   GameGraph g1;
   JButton b1,b2;
   boolean endgame,start;
+  Tile[][] map;
+  Player p;
+  Sword s;
   public GameMain()
   {
+    makeMap();
     setVariables();
     setPanel();
     game();
   }
+  private void makeMap(){
+    map = new Tile[18][18];
+    for(int i = 1; i < map.length-1; i++){
+    for(int j = 1; j < map.length-1; j++){
+    map[i][j] = new NormalTile(i*40,j*40);}}
+    for(int i = 0; i < map.length; i++){
+      map[0][i] = new WallTile(0,i*40);
+      map[17][i] = new WallTile(680,i*40);
+      map[i][0] = new WallTile(i*40,0);
+      map[i][17] = new WallTile(i*40,680);
+    }
+    }
   private void setPanel()
   {
     f1 = new JFrame("Graphics Example");
@@ -29,7 +45,7 @@ public class GameMain implements ActionListener, KeyListener
     b2 =  new JButton("End");
       b2.addActionListener(this);
       
-    g1 = new GameGraph();
+    g1 = new GameGraph(map,p,s);
       g1.addKeyListener(this);  
       
     sub = new JPanel(); 
@@ -47,7 +63,8 @@ public class GameMain implements ActionListener, KeyListener
   }
   private void setVariables()
   {
-    
+    p = new Player(200,200,30,30);
+    s = new Sword(p);
   }
   private void game()
   {
@@ -61,7 +78,7 @@ public class GameMain implements ActionListener, KeyListener
       catch(InterruptedException e) {}  
       if(start)
       {
-        
+        s.updateSword();
         g1.repaint();
       }
     }
@@ -84,19 +101,27 @@ public class GameMain implements ActionListener, KeyListener
   {
     if(evt.getKeyCode() == 38)
      {
-       
+      //up 
+      p.y-=3;
+      p.dir = "up";
      }
     if(evt.getKeyCode() == 40)
     {
-       
+      //down
+      p.y+=3;
+      p.dir = "down";
     }
     if(evt.getKeyCode() == 37)
     {
-       
+       //left
+       p.x-=3;
+       p.dir ="left";
     }
     if(evt.getKeyCode() == 39)
     {
-       
+       //right
+       p.x+=3;
+       p.dir = "right";
     }
     if(evt.getKeyCode() == 32)
     {

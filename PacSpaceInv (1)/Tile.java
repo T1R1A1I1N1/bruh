@@ -1,14 +1,15 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.util.ArrayList;
 
 public class Tile extends Base
 {
-    boolean pass, dan;
-    int dam;
-    public Tile(int x, int y, int xsiz, int ysiz, boolean pass, boolean dan, int dam)
+    Color c;
+    public Tile(int x, int y, Color c)
     {
-        super(x,y,xsiz,ysiz);
-        this.pass = pass;
-        this.dan = dan;
-        this.dam = dam;
+        super(x,y,40,40);
+        this.c = c;
     }
 
 }
